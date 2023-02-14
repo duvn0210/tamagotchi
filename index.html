@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>tamagotchi</title>
+</head>
+<body>
+    <div class="main-container">
+        <h1 class="main-title">Pikachu</h1>
+        <div id="container-dialog">
+          <p>Game over</p><button id="jugar-de-nuevo">Play again</button>
+        </div>
+        <div class="tamagotchi">
+          <div class="second-container">
+            <img src="./assets/main-pikachu.png" id="Pikachu">
+          </div>
+          <div class="porcentajes">
+            <p class="salud">Salud: <span id="salud">100</span>%</p>
+            <p class="hambre">Hambre: <span id="hambre">100</span>%</p>
+          </div>
+          <div class="buttons">
+            <div class="actions">
+              <button id="comer">Comer</button>
+              <button id="jugar">Jugar</button>
+              <button id="dormir">Dormir</button>
+            </div>
+            <div class="juega-ya">
+              <button class="Empezar" id="empezar">Comenzar juego</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="./main.js"></script>
+</body>
+</html>
